@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>kmit-ngit</title>
+</head>
+
+<body>
+    <p id="text" >
+        Hello KMIT!!!
+    </p>
+
+    <button type="button" id="btn" onclick="geek()">
+        Try it
+    </button>
+
+</body>
+<script>
+    function geek() {
+        var p = document.createElement('p');
+        p.style.marginTop = p.style.marginBottom = "0px";
+        p.innerHTML="Hello NGIT!!! <br> Hello NGIT!!!";
+        document.getElementById("text").appendChild(p);
+    }
+</script>
+</html>
